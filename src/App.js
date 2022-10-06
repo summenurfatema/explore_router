@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
+import Friends from './components/Friends/Friends';
 import Home from './components/Home/Home';
 import Main from './components/Layout/Main';
 import Products from './components/Products/Products';
@@ -13,7 +14,8 @@ function App() {
         { path: "/", element: <Home></Home> },
         { path: "/home", element: <Home></Home> },
         { path: "/about", element: <About></About> },
-        { path: "/products", element: <Products></Products> }
+        { path: "/products", element: <Products></Products> },
+        { path: "/friends", element: <Friends></Friends> },
       ]
 
     },
