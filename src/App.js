@@ -14,9 +14,10 @@ function App() {
         { path: "/home", element: <Home></Home> },
         { path: "/about", element: <About></About> },
         { path: "/products", element: <Products></Products> }
-
       ]
-    }
+
+    },
+    { path: "*", element: <div>Nothing found</div> },
 
   ])
   return (
