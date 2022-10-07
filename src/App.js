@@ -5,6 +5,7 @@ import FriendDetails from './components/FriendDetails/FriendDetails';
 import Friends from './components/Friends/Friends';
 import Home from './components/Home/Home';
 import Main from './components/Layout/Main';
+import Posts from './components/Posts/Posts';
 import Products from './components/Products/Products';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         { path: "/home", element: <Home></Home> },
         { path: "/about", element: <About></About> },
         { path: "/products", element: <Products></Products> },
+        { path: "/posts", element: <Posts></Posts> },
         {
           path: "/friends",
           loader: async () => {
